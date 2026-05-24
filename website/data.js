@@ -274,7 +274,7 @@ const SITE_DATA = {
     hero: {
       title: "Doa Katolik",
       subtitle: "Temukan berbagai doa harian, devosi, dan doa-doa penting",
-      image: "gereja.webp",
+      image: "gereja1.jpg",
     },
     items: [
       {
