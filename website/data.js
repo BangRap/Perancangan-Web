@@ -4,17 +4,15 @@ const SITE_DATA = {
     name: "FKMK Sekolah Vokasi IPB",
     campus: "Institut Pertanian Bogor",
     tagline: "Bersatu dalam iman, bertumbuh dalam pengetahuan, dan berbagi dalam pelayanan.",
-    email: "katolikitera@gmail.com",
+    email: "fkmksvipb@apps.ipb.ac.id",
     copyright: "2026 FKMK Sekolah Vokasi IPB",
   },
 
   assets: {
     logo: "Logo FKMK.png",
     logoLarge: "Logo FKMK.png",
-    instagram: "https://www.kmkitera.com/instagram.png",
-    youtube: "https://www.kmkitera.com/youtube.png",
-    spotify: "https://www.kmkitera.com/spotify.png",
-    tiktok: "https://www.kmkitera.com/tiktok.png",
+    instagram: "instagram.png",
+    tiktok: "tik-tok.png",
   },
 
   navigation: [
