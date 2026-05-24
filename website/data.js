@@ -21,8 +21,6 @@ const SITE_DATA = {
     { page: "home", label: "Beranda", href: "index.html" },
     { page: "profile", label: "Profil", href: "profil.html" },
     { page: "events", label: "Event", href: "event.html" },
-    { page: "songs", label: "Lagu Misa", href: "lagu-misa.html" },
-    { page: "schedule", label: "Jadwal Misa", href: "jadwal-misa.html" },
     { page: "prayers", label: "Doa Katolik", href: "doa.html" },
   ],
 
@@ -287,84 +285,6 @@ const SITE_DATA = {
     ],
   },
 
-  songs: {
-    hero: {
-      title: "Lagu Misa",
-      subtitle: "Kumpulan lagu untuk mengiringi perayaan liturgi",
-      image: "https://www.kmkitera.com/bg-gereja.jpg",
-    },
-    items: [
-      { code: "PS 322", category: "Pembuka", title: "Saudara, Mari Semua", favorite: true, text: "Lagu pembuka untuk mengajak umat hadir dan menyatukan hati dalam perayaan." },
-      { code: "PS 320", category: "Pembuka", title: "Awalilah Kurbanmu", favorite: false, text: "Pilihan lagu pembuka dengan suasana persiapan hati dan syukur." },
-      { code: "PS 343", category: "Gloria", title: "Gloria (Missa De Angelis)", favorite: true, text: "Nyanyian kemuliaan bergaya klasik untuk bagian ordinarium misa." },
-      { code: "PS 376", category: "Persiapan Persembahan", title: "Tuhan Ambil Hidupku", favorite: false, text: "Lagu persembahan yang menekankan penyerahan diri kepada Tuhan." },
-      { code: "PS 384a", category: "Persiapan Persembahan", title: "Trimalah Persembahan Kami", favorite: false, text: "Lagu untuk mengiringi persiapan persembahan dalam suasana doa." },
-      { code: "PS 520", category: "Masa Paskah", title: "Haec Dies", favorite: true, text: "Lagu bernuansa Paskah untuk merayakan sukacita kebangkitan." },
-    ],
-  },
-
-  schedule: {
-    updated: "11/08/2025",
-    hero: {
-      title: "Jadwal Misa",
-      subtitle: "Daftar gereja dan jadwal misa di sekitar Institut Teknologi Sumatera",
-    },
-    churches: [
-      {
-        name: "Gereja Katedral Tanjung Karang, Kristus Raja",
-        distance: "11,4 km dari ITERA",
-        address: "Jl. Kota Raja No.14, Gn. Sari, Kec. Tj. Karang Pusat, Kota Bandar Lampung, Lampung 35128",
-        image: "https://www.kmkitera.com/jadwalMisa/kristusRaja.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [
-          { label: "Sabtu", value: "16:30 WIB" },
-          { label: "Minggu Pagi 1", value: "06:30 WIB" },
-          { label: "Minggu Pagi 2", value: "08:30 WIB" },
-          { label: "Minggu Sore", value: "16:30 WIB" },
-        ],
-      },
-      {
-        name: "Gereja Katolik Paroki Santo Yohanes Rasul, Kedaton",
-        distance: "9,8 km dari ITERA",
-        address: "Jl. Tupai No.49, Sidodadi, Kec. Kedaton, Kota Bandar Lampung, Lampung 35123",
-        image: "https://www.kmkitera.com/jadwalMisa/kedaton.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [
-          { label: "Sabtu", value: "16:30 WIB" },
-          { label: "Minggu Pagi 1", value: "06:30 WIB" },
-          { label: "Minggu Pagi 2", value: "09:00 WIB" },
-          { label: "Minggu Sore", value: "16:30 WIB" },
-        ],
-      },
-      {
-        name: "Gereja Katolik Santa Maria Immaculata, Stasi Way Kandis",
-        distance: "5,3 km dari ITERA",
-        address: "Jl. Cempaka 4 No.3, Way Kandis, Kec. Tj. Senang, Kota Bandar Lampung, Lampung 35141",
-        image: "https://www.kmkitera.com/jadwalMisa/wayKandis.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [
-          { label: "Sabtu", value: "17:00 WIB" },
-          { label: "Minggu", value: "07:00 WIB" },
-        ],
-      },
-      {
-        name: "Gereja Katolik Santo Andreas Rasul, Margo Agung",
-        distance: "10,4 km dari ITERA",
-        address: "Jl. Margo Agung, Marga Kaya, Jati Agung, South Lampung Regency, Lampung 35365",
-        image: "https://www.kmkitera.com/jadwalMisa/margoAgung.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [{ label: "Minggu", value: "07:30 WIB" }],
-      },
-      {
-        name: "Gereja Katolik Stasi Santa Maria, Margo Lestari",
-        distance: "7,5 km dari ITERA",
-        address: "Margo Lestari, Kec. Jati Agung, Kabupaten Lampung Selatan, Lampung 35365",
-        image: "https://www.kmkitera.com/jadwalMisa/lestari.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [{ label: "Minggu", value: "07:30 WIB" }],
-      },
-    ],
-  },
 
   prayers: {
     hero: {

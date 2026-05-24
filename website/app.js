@@ -66,7 +66,7 @@ function renderFooter() {
     .map((item) => `<a href="${escapeHTML(item.href)}">${escapeHTML(item.label === "Event" ? "Event & Galeri" : item.label)}</a>`)
     .join("");
   const resourceLinks = navigation
-    .filter((item) => ["songs", "schedule", "prayers"].includes(item.page))
+    .filter((item) => ["schedule", "prayers"].includes(item.page))
     .map((item) => `<a href="${escapeHTML(item.href)}">${escapeHTML(item.label === "Doa Katolik" ? "Kumpulan Doa" : item.label)}</a>`)
     .join("");
 
@@ -108,7 +108,7 @@ function renderFooter() {
 
 function renderPage() {
   const app = document.getElementById("app");
-  const renderers = { home: renderHome, profile: renderProfile, events: renderEvents, songs: renderSongs, schedule: renderSchedule, prayers: renderPrayers };
+  const renderers = { home: renderHome, profile: renderProfile, events: renderEvents, prayers: renderPrayers };
   app.innerHTML = (renderers[pageName] || renderHome)();
   afterPageRender();
 }
@@ -116,7 +116,6 @@ function renderPage() {
 function afterPageRender() {
   if (pageName === "home") { setupHeroSlider(); setupFaqs(); setupFloatingReflection(); }
   if (pageName === "events") setupEventFilters();
-  if (pageName === "songs") setupSongFilters();
   if (pageName === "prayers") setupPrayerFilters();
 }
 
@@ -401,72 +400,8 @@ function renderEventCard(event) {
     </article>`;
 }
 
-function renderSongs() {
-  const { hero, items } = SITE_DATA.songs;
-  const categories = [...new Set(items.map((song) => song.category))];
-  return `
-    ${renderPageHero(hero)}
-    <section class="section section-soft">
-      <div class="container">
-        <div class="filter-bar">
-          <input class="search-box" id="song-search" type="search" placeholder="Cari nomor, judul, atau kategori..." />
-          <select class="select-box" id="song-category" aria-label="Kategori lagu">
-            <option value="all">Semua Kategori</option>
-            ${categories.map((category) => `<option value="${escapeHTML(category)}">${escapeHTML(category)}</option>`).join("")}
-          </select>
-        </div>
-        <div class="section-title reveal">
-          <span class="eyebrow">Semua Lagu Misa</span>
-          <h2>Daftar lagu pilihan</h2>
-        </div>
-        <div class="song-grid" id="song-grid">${items.map(renderSongCard).join("")}</div>
-      </div>
-    </section>`;
-}
 
-function renderSongCard(song) {
-  return `
-    <article class="card song-card reveal">
-      <div class="song-top">
-        <span class="song-code">${escapeHTML(song.code)}</span>
-        <button class="favorite ${song.favorite ? "active" : ""}" type="button" aria-label="Tandai favorit">*</button>
-      </div>
-      <span class="meta-pill">${escapeHTML(song.category)}</span>
-      <h3>${escapeHTML(song.title)}</h3>
-      <p>${escapeHTML(song.text)}</p>
-      <a class="btn btn-gold" href="#">Lihat Partitur</a>
-    </article>`;
-}
 
-function renderSchedule() {
-  const { hero, updated, churches } = SITE_DATA.schedule;
-  return `
-    ${renderPageHero(hero, { gradient: true })}
-    <section class="section section-soft">
-      <div class="container">
-        <div class="schedule-note reveal"><span><i class="status-dot"></i>Terakhir diperbarui ${escapeHTML(updated)}</span></div>
-        <div class="church-grid">
-          ${churches.map((church) => `
-            <article class="card church-card reveal">
-              <figure><img src="${escapeHTML(church.image)}" alt="${escapeHTML(church.name)}" /></figure>
-              <div class="church-body">
-                <h3>${escapeHTML(church.name)}</h3>
-                <p>${escapeHTML(church.address)}</p>
-                <span class="meta-pill">${escapeHTML(church.distance)}</span>
-                <div class="times">
-                  ${church.times.map((timeRow) => `
-                    <div class="time-row">
-                      <span>${escapeHTML(timeRow.label)}</span>
-                      <strong>${escapeHTML(timeRow.value)}</strong>
-                    </div>`).join("")}
-                </div>
-                <a class="btn btn-primary" href="${escapeHTML(church.map)}">Petunjuk Arah</a>
-              </div>
-            </article>`).join("")}
-        </div>
-      </div>
-    </section>`;
-}
 
 function renderPrayers() {
   const { hero, items } = SITE_DATA.prayers;
@@ -561,28 +496,6 @@ function parseIndoDate(value) {
   const months = { januari:0, februari:1, maret:2, april:3, mei:4, jun:5, juni:5, jul:6, juli:6, agustus:7, sep:8, september:8, okt:9, oktober:9, nov:10, november:10, des:11, desember:11 };
   const parts = String(value).toLowerCase().split(" ").filter(Boolean);
   return new Date(Number(parts[2]) || 2000, months[parts[1]] ?? 0, Number(parts[0]) || 1).getTime();
-}
-
-function setupSongFilters() {
-  const search = document.getElementById("song-search");
-  const category = document.getElementById("song-category");
-  const grid = document.getElementById("song-grid");
-  const baseSongs = SITE_DATA.songs.items;
-  const update = () => {
-    const query = search.value.toLowerCase().trim();
-    const activeCategory = category.value;
-    const items = baseSongs.filter((song) => {
-      const matchesCategory = activeCategory === "all" || song.category === activeCategory;
-      const matchesSearch = `${song.code} ${song.title} ${song.category} ${song.text}`.toLowerCase().includes(query);
-      return matchesCategory && matchesSearch;
-    });
-    grid.innerHTML = items.length ? items.map(renderSongCard).join("") : `<div class="empty-state">Lagu tidak ditemukan.</div>`;
-    setupReveal();
-    setupFavoriteButtons();
-  };
-  search.addEventListener("input", update);
-  category.addEventListener("change", update);
-  setupFavoriteButtons();
 }
 
 function setupFavoriteButtons() {
