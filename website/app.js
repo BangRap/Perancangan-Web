@@ -218,15 +218,6 @@ function renderHome() {
         <div class="testimonials">${testimonials.map(renderTestimonial).join("")}</div>
       </div>
     </section>
-    <section class="section">
-      <div class="container">
-        <div class="section-title reveal">
-          <span class="eyebrow">Galeri Kegiatan</span>
-          <h2>Kenangan dari berbagai kegiatan</h2>
-        </div>
-        <div class="gallery-grid">${gallery.map(renderGalleryCard).join("")}</div>
-      </div>
-    </section>
     <section class="section section-soft">
       <div class="container">
         <div class="section-title reveal">
