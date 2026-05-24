@@ -224,8 +224,8 @@ function renderHome() {
       <div class="container">
         <div class="section-title center reveal">
           <span class="eyebrow">Apa Kata Mereka?</span>
-          <h2>Dengarkan pengalaman anggota KMK</h2>
-          <p>Beberapa kesan dari teman-teman yang bertumbuh bersama KMK St. Thomas Aquinas ITERA.</p>
+          <h2>Dengarkan pengalaman anggota FKMK</h2>
+          <p>Beberapa kesan dari teman-teman yang bertumbuh bersama FKMK Sekolah Vokasi IPB.</p>
         </div>
         <div class="testimonials">${testimonials.map(renderTestimonial).join("")}</div>
       </div>
@@ -243,8 +243,8 @@ function renderHome() {
       <div class="container">
         <div class="section-title reveal">
           <span class="eyebrow">Acara Mendatang</span>
-          <h2>Kegiatan KMK</h2>
-          <p>Jangan lewatkan kegiatan-kegiatan menarik dari KMK St. Thomas Aquinas ITERA.</p>
+          <h2>Kegiatan FKMK</h2>
+          <p>Jangan lewatkan kegiatan-kegiatan menarik dari FKMK Sekolah Vokasi IPB.</p>
         </div>
         <div class="event-grid">${eventPreview.map(renderEventCard).join("")}</div>
       </div>
@@ -253,7 +253,7 @@ function renderHome() {
       <div class="narrow">
         <div class="section-title center reveal">
           <span class="eyebrow">Pertanyaan yang Sering Diajukan</span>
-          <h2>Seputar KMK St. Thomas Aquinas ITERA</h2>
+          <h2>Seputar FKMK Sekolah Vokasi IPB</h2>
         </div>
         <div class="faq-list">${faqs.map(renderFaq).join("")}</div>
       </div>

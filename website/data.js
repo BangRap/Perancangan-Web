@@ -1,11 +1,11 @@
 
 const SITE_DATA = {
   brand: {
-    name: "KMK St. Thomas Aquinas",
-    campus: "Institut Teknologi Sumatera",
+    name: "FKMK Sekolah Vokasi IPB",
+    campus: "Institut Pertanian Bogor",
     tagline: "Bersatu dalam iman, bertumbuh dalam pengetahuan, dan berbagi dalam pelayanan.",
     email: "katolikitera@gmail.com",
-    copyright: "2026 Divisi Implementasi Teknologi - Departemen Media Komunikasi Visual - KMK St. Thomas Aquinas ITERA",
+    copyright: "2026 FKMK Sekolah Vokasi IPB",
   },
 
   assets: {
@@ -29,15 +29,15 @@ const SITE_DATA = {
   home: {
     heroSlides: [
       {
-        title: "KMK St. Thomas Aquinas",
-        kicker: "Unit Kegiatan Mahasiswa Kristen",
+        title: "Forum Keluarga Mahasiswa Katolik",
+        kicker: "Unit Kegiatan Mahasiswa Katolik Sekolah Vokasi IPB",
         text: "Bersatu dalam iman, bertumbuh dalam pengetahuan, dan berbagi dalam pelayanan.",
         image: "https://www.kmkitera.com/bg-2.JPG",
       },
       {
         title: "Kegiatan Kami",
         kicker: "Mengembangkan Iman dan Persaudaraan",
-        text: "Berbagai kegiatan rohani, sosial, dan pengembangan diri yang memperkuat iman dan persaudaraan.",
+        text: "Berbagai kegiatan rohani, sosial, dan pengembangan diri yang memperkuat iman dan persaudaraan antar sesama.",
         image: "https://www.kmkitera.com/bg-1.JPG",
       },
       {
@@ -62,8 +62,8 @@ const SITE_DATA = {
 
     welcome: {
       eyebrow: "Selamat Datang di",
-      title: "KMK St. Thomas Aquinas Institut Teknologi Sumatera",
-      body: "Unit Kegiatan Mahasiswa Katolik St. Thomas Aquinas Institut Teknologi Sumatera adalah komunitas iman yang mengajak mahasiswa Katolik bertumbuh dalam kasih Kristus, membangun persaudaraan, dan melayani dengan hati.",
+      title: "Forum Keluarga Mahasiswwa Katolik Sekolah Vokasi IPB",
+      body: "FKMK adalah organisasi kemahasiswaan yang diperuntukkan bagi mahasiswa Sekolah Vokasi IPB yang beragama Katolik. Tujuannya untuk mempererat hubungan antar sesama Katolik, baik secara jasmani maupun rohani.",
     },
 
     pillars: [
@@ -166,20 +166,16 @@ const SITE_DATA = {
 
     faqs: [
       {
-        question: "Bagaimana cara bergabung dengan KMK St. Thomas Aquinas ITERA?",
-        answer: "Kamu dapat menghubungi pengurus KMK melalui media sosial atau datang langsung pada kegiatan rutin kami.",
+        question: "Bagaimana cara bergabung dengan FKMK Sekolah Vokasi IPB?",
+        answer: "Kamu dapat menunggu informasi kapan kami membuka open recruitment di instagram kami",
       },
       {
-        question: "Apa saja kegiatan rutin KMK St. Thomas Aquinas?",
-        answer: "Kegiatan rutin meliputi pertemuan mingguan, pendalaman iman, perayaan Ekaristi, kegiatan sosial, dan pengembangan diri.",
-      },
-      {
-        question: "Dimana lokasi sekretariat KMK St. Thomas Aquinas?",
-        answer: "Untuk informasi lokasi pertemuan dan agenda terbaru, silakan hubungi pengurus KMK terlebih dahulu.",
+        question: "Apa saja kegiatan rutin FKMK Sekolah Vokasi IPB?",
+        answer: "Kegiatan rutin meliputi pertemuan mingguan, pendalaman iman, pelaksanaan program kerja, kegiatan sosial, dan pengembangan diri.",
       },
       {
         question: "Apakah ada biaya keanggotaan?",
-        answer: "Tidak ada biaya wajib. Iuran sukarela biasanya digunakan untuk mendukung kegiatan bersama.",
+        answer: "Tidak ada biaya wajib. Iuran sukarela biasanya digunakan untuk mendukung kegiatan bersama saja.",
       },
     ],
   },
