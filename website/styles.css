@@ -1252,18 +1252,19 @@ select {
 
 .footer-grid h3,
 .footer-grid h4 {
-  margin: 0 0 12px;
+  margin: 0 0 3px;
   font-family: var(--serif);
 }
 
 .footer-grid p,
 .footer-grid a {
   color: #5e4a20;
+  margin: 0 0 3px;
 }
 
 .footer-links {
   display: grid;
-  gap: 8px;
+  gap: 3px;
 }
 
 .socials {
