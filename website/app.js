@@ -88,7 +88,7 @@ function renderFooter() {
           </div>
           <div>
             <h4>Fitur dan Sumber Daya</h4>
-            <div class="footer-links">${resourceLinks}<a href="index.html#liturgical-calendar">Kalender Liturgi</a></div>
+            <div class="footer-links">${resourceLinks}</div>
           </div>
           <div>
             <h4>Hubungi Kami</h4>
