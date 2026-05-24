@@ -9,7 +9,7 @@ const SITE_DATA = {
   },
 
   assets: {
-    logo: "https://www.kmkitera.com/logokmk.png",
+    logo: "Logo FKMK.png",
     logoLarge: "https://www.kmkitera.com/hd-logo-kmk-500.png",
     instagram: "https://www.kmkitera.com/instagram.png",
     youtube: "https://www.kmkitera.com/youtube.png",
@@ -21,8 +21,6 @@ const SITE_DATA = {
     { page: "home", label: "Beranda", href: "index.html" },
     { page: "profile", label: "Profil", href: "profil.html" },
     { page: "events", label: "Event", href: "event.html" },
-    { page: "songs", label: "Lagu Misa", href: "lagu-misa.html" },
-    { page: "schedule", label: "Jadwal Misa", href: "jadwal-misa.html" },
     { page: "prayers", label: "Doa Katolik", href: "doa.html" },
   ],
 
@@ -115,13 +113,6 @@ const SITE_DATA = {
       readings: ["Kis. 15:22-31", "Mzm. 57:8-9,10-12", "Yoh. 15:12-17"],
     },
 
-    join: {
-      title: "Mari Bergabung dengan KMK St. Thomas Aquinas",
-      button: "Gabung Menjadi Anggota",
-      href: "https://www.instagram.com/kmk_itera/",
-      body: "Kami mengundang semua mahasiswa Katolik ITERA untuk bertumbuh bersama dalam komunitas yang hangat, penuh kasih, dan siap melayani.",
-    },
-
     testimonials: [
       {
         name: "Winky Apriyani",
@@ -182,7 +173,7 @@ const SITE_DATA = {
 
   profile: {
     hero: {
-      title: "Profil KMK St. Thomas Aquinas",
+      title: "Profil FKMK SV IPB",
       subtitle: "Unit Kegiatan Mahasiswa Katolik Institut Teknologi Sumatera",
       image: "https://www.kmkitera.com/comp-bg-profil.webp",
     },
@@ -190,31 +181,28 @@ const SITE_DATA = {
       title: "Sejarah",
       image: "https://www.kmkitera.com/bg-sejarah.webp",
       paragraphs: [
-        "Awalnya, kegiatan mahasiswa Kristen difasilitasi oleh UKM Komunitas Mahasiswa Kristen Katolik untuk mahasiswa Kristen Protestan dan Katolik. Bertambahnya jumlah mahasiswa mendorong terbentuknya unit khusus.",
-        "Pada tahun 2019, KMK St. Thomas Aquinas ITERA hadir sebagai rumah bagi mahasiswa Katolik yang ingin bertumbuh dalam iman, persaudaraan, dan pelayanan.",
-        "Nama St. Thomas Aquinas dipilih karena semangatnya memadukan iman dan pengetahuan, selaras dengan kehidupan mahasiswa di institut teknologi.",
+        "FKMK adalah organisasi kemahasiswaan yang diperuntukkan bagi mahasiswa Sekolah Vokasi IPB yang beragama Katolik. Tujuannya untuk mempererat hubungan antar sesama Katolik, baik secara jasmani maupun rohani. FKMK didirikan pada tahun 2012 oleh angkatan 50, dengan tujuan memenuhi kebutuhan mahasiswa Katolik yang mencari tempat untuk berbagi, mengembangkan iman, dan membangun rasa kekeluargaan di antara sesama mahasiswa Katolik.",
       ],
       milestones: [
-        { year: "2019", text: "Pendirian KMK St. Thomas Aquinas ITERA" },
-        { year: "2019-Sekarang", text: "Pengembangan program rohani, sosial, dan regenerasi anggota" },
+        { year: "2012", text: "Pendirian FKMK SV IPB" },
       ],
     },
     vision: {
       title: "Visi dan Misi",
-      quote: "Menjadikan KMK ITERA sebagai rumah untuk bertumbuh dalam iman dan kasih, meningkatkan kualitas sumber daya anggota, serta terlibat aktif di tengah masyarakat.",
+      quote: "FKMK berkomitmen menjadi pusat pergerakan yang transformatif secara spiritual dan aktif dalam pelayanan untuk melahirkan pemimpin Katolik yang memiliki karakter kuat (karakter baja) bagi Gereja dan bangsa Indonesia.",
       missions: [
-        { number: "01", title: "Menumbuhkan Iman dan Kasih", text: "Menumbuhkan iman dan kasih sebagai dasar kehidupan orang Katolik." },
-        { number: "02", title: "Regenerasi Anggota", text: "Mendorong regenerasi melalui peningkatan mutu anggota dan kaderisasi." },
-        { number: "03", title: "Meningkatkan Kekeluargaan", text: "Membangun kekeluargaan dengan berlandaskan asas KMK ITERA." },
-        { number: "04", title: "Membangun Kebersamaan", text: "Merawat kebersamaan antaranggota KMK, baik di dalam maupun luar organisasi." },
+        { number: "01", title: "Inspire", text: "Menjadi sumber kekuatan untuk menjawab kegelisahan mahasiswa dan menciptakan ruang perjumpaan dengan Tuhan yang kreatif serta mendalam." },
+        { number: "02", title: "Impact", text: 'Berperan sebagai "Garam dan Terang Dunia" dengan mengkaji isu strategis dari sudut pandang iman Katolik serta bergerak melayani sesama yang membutuhkan.' },
+        { number: "03", title: "Ignite", text: 'Membangun komunitas sebagai "rumah yang sesungguhnya" dan menjadi benteng pertahanan agar tidak ada anggota yang merasa sendirian.' },
       ],
     },
     organization: {
       roles: [
-        { title: "Ketua Umum", text: "Mengkoordinasikan arah pelayanan dan program kerja KMK." },
-        { title: "Sekretaris", text: "Menata administrasi, arsip, dan komunikasi organisasi." },
-        { title: "Bendahara", text: "Mengelola kebutuhan dana kegiatan dengan transparan." },
-        { title: "Departemen Pelayanan", text: "Menggerakkan kegiatan rohani, sosial, dan pengembangan anggota." },
+        { title: "BPH", text: "Badan yang memiliki fungsi kontrol, koordinasi, pengembangan dan peningkatan untuk menjalankan dan bertanggung jawab atas segala kegiatan dan program kerja yang telah ditetapkan. BPH terdiri dari ketua umum, wakil ketua, sekretaris 1 dan 2, bendahara 1 dan 2." },
+        { title: "HAKRAB", text: "Divisi yang merupakan bagian dari organisasi yang bertugas berkomunikasi dengan publik, baik internal ataupun eksternal. Keakraban merupakan salah satu kegiatan yang dilakukan oleh humas di bagian internal organisasi." },
+        { title: "ROHANI", text: "Divisi yang mengelola kegiatan rohani dan sosial yang berkaitan dengan kesejahteraan. Divisi ini bertujuan untuk membentuk pribadi yang beriman, bertaqwa, dan memiliki budi pekerti yang baik. Biasanya divisi ini yang memimpin doa dalam suatu acara ataupun mempererat hub antara Tuhan dan diri sendiri. " },
+        { title: "KOMINFO", text: "Divisi yang bertugas untuk mengelola dan menyebarkan informasi, serta komunikasi. menjalin Kominfo merupakan wajah ini FKMK karena branding organisasi sangat diperlukan. " },
+        { title: "PENKRAF", text: "Divisi ini berfokus pada pengembangan talenta anggota dan penguatan ekonomi kreatif. Melalui koordinasi lintas divisi, kami menciptakan peluang pendanaan organisasi dengan cara yang kreatif dan menyenangkan." },
       ],
     },
   },
@@ -283,84 +271,6 @@ const SITE_DATA = {
     ],
   },
 
-  songs: {
-    hero: {
-      title: "Lagu Misa",
-      subtitle: "Kumpulan lagu untuk mengiringi perayaan liturgi",
-      image: "https://www.kmkitera.com/bg-gereja.jpg",
-    },
-    items: [
-      { code: "PS 322", category: "Pembuka", title: "Saudara, Mari Semua", favorite: true, text: "Lagu pembuka untuk mengajak umat hadir dan menyatukan hati dalam perayaan." },
-      { code: "PS 320", category: "Pembuka", title: "Awalilah Kurbanmu", favorite: false, text: "Pilihan lagu pembuka dengan suasana persiapan hati dan syukur." },
-      { code: "PS 343", category: "Gloria", title: "Gloria (Missa De Angelis)", favorite: true, text: "Nyanyian kemuliaan bergaya klasik untuk bagian ordinarium misa." },
-      { code: "PS 376", category: "Persiapan Persembahan", title: "Tuhan Ambil Hidupku", favorite: false, text: "Lagu persembahan yang menekankan penyerahan diri kepada Tuhan." },
-      { code: "PS 384a", category: "Persiapan Persembahan", title: "Trimalah Persembahan Kami", favorite: false, text: "Lagu untuk mengiringi persiapan persembahan dalam suasana doa." },
-      { code: "PS 520", category: "Masa Paskah", title: "Haec Dies", favorite: true, text: "Lagu bernuansa Paskah untuk merayakan sukacita kebangkitan." },
-    ],
-  },
-
-  schedule: {
-    updated: "11/08/2025",
-    hero: {
-      title: "Jadwal Misa",
-      subtitle: "Daftar gereja dan jadwal misa di sekitar Institut Teknologi Sumatera",
-    },
-    churches: [
-      {
-        name: "Gereja Katedral Tanjung Karang, Kristus Raja",
-        distance: "11,4 km dari ITERA",
-        address: "Jl. Kota Raja No.14, Gn. Sari, Kec. Tj. Karang Pusat, Kota Bandar Lampung, Lampung 35128",
-        image: "https://www.kmkitera.com/jadwalMisa/kristusRaja.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [
-          { label: "Sabtu", value: "16:30 WIB" },
-          { label: "Minggu Pagi 1", value: "06:30 WIB" },
-          { label: "Minggu Pagi 2", value: "08:30 WIB" },
-          { label: "Minggu Sore", value: "16:30 WIB" },
-        ],
-      },
-      {
-        name: "Gereja Katolik Paroki Santo Yohanes Rasul, Kedaton",
-        distance: "9,8 km dari ITERA",
-        address: "Jl. Tupai No.49, Sidodadi, Kec. Kedaton, Kota Bandar Lampung, Lampung 35123",
-        image: "https://www.kmkitera.com/jadwalMisa/kedaton.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [
-          { label: "Sabtu", value: "16:30 WIB" },
-          { label: "Minggu Pagi 1", value: "06:30 WIB" },
-          { label: "Minggu Pagi 2", value: "09:00 WIB" },
-          { label: "Minggu Sore", value: "16:30 WIB" },
-        ],
-      },
-      {
-        name: "Gereja Katolik Santa Maria Immaculata, Stasi Way Kandis",
-        distance: "5,3 km dari ITERA",
-        address: "Jl. Cempaka 4 No.3, Way Kandis, Kec. Tj. Senang, Kota Bandar Lampung, Lampung 35141",
-        image: "https://www.kmkitera.com/jadwalMisa/wayKandis.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [
-          { label: "Sabtu", value: "17:00 WIB" },
-          { label: "Minggu", value: "07:00 WIB" },
-        ],
-      },
-      {
-        name: "Gereja Katolik Santo Andreas Rasul, Margo Agung",
-        distance: "10,4 km dari ITERA",
-        address: "Jl. Margo Agung, Marga Kaya, Jati Agung, South Lampung Regency, Lampung 35365",
-        image: "https://www.kmkitera.com/jadwalMisa/margoAgung.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [{ label: "Minggu", value: "07:30 WIB" }],
-      },
-      {
-        name: "Gereja Katolik Stasi Santa Maria, Margo Lestari",
-        distance: "7,5 km dari ITERA",
-        address: "Margo Lestari, Kec. Jati Agung, Kabupaten Lampung Selatan, Lampung 35365",
-        image: "https://www.kmkitera.com/jadwalMisa/lestari.jpg",
-        map: "https://maps.app.goo.gl/",
-        times: [{ label: "Minggu", value: "07:30 WIB" }],
-      },
-    ],
-  },
 
   prayers: {
     hero: {
