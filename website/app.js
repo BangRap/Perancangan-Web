@@ -175,7 +175,7 @@ function renderHome() {
     ${renderHero(heroSlides)}
     <section class="section section-soft">
       <div class="container reveal">
-        <img class="welcome-logo" src="${escapeHTML(assets.logoLarge)}" alt="Logo KMK St. Thomas Aquinas" />
+        <img class="welcome-logo" src="${escapeHTML(assets.logoLarge)}" alt="Logo FKMK" />
         <div class="welcome-text">
           <span class="hero-kicker">${escapeHTML(welcome.eyebrow)}</span>
           <h2>${escapeHTML(welcome.title)}</h2>
