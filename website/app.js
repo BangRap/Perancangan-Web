@@ -195,7 +195,7 @@ function renderHome() {
         <div>
           <div class="section-title">
             <span class="eyebrow">Berita dan Artikel</span>
-            <h2>Renungan dan kabar komunitas</h2>
+            <h2>Renungan Hari Ini</h2>
           </div>
           <div class="article-list">${articles.map(renderArticleCard).join("")}</div>
         </div>
@@ -215,7 +215,7 @@ function renderHome() {
     <section class="section section-soft">
       <div class="container">
         <div class="section-title reveal">
-          <span class="eyebrow">Acara Mendatang</span>
+          <span class="eyebrow">Acara Sebelumnya</span>
           <h2>Kegiatan FKMK</h2>
           <p>Jangan lewatkan kegiatan-kegiatan menarik dari FKMK Sekolah Vokasi IPB.</p>
         </div>
@@ -231,10 +231,7 @@ function renderHome() {
         <div class="faq-list">${faqs.map(renderFaq).join("")}</div>
       </div>
     </section>
-    <div class="floating-reflection" data-floating-reflection>
-      <button type="button" aria-label="Tutup renungan">x</button>
-      Renungan Hari Ini
-    </div>`;
+    `;
 }
 
 function iconLabel(icon) {
@@ -249,7 +246,6 @@ function renderArticleCard(article) {
         <span class="date-pill">${escapeHTML(article.date)}</span>
         <h3>${escapeHTML(article.title)}</h3>
         <p>${escapeHTML(article.summary)}</p>
-        <a class="btn btn-gold" href="#">Baca Selengkapnya -&gt;</a>
       </div>
     </article>`;
 }

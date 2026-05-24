@@ -79,31 +79,24 @@ const SITE_DATA = {
 
     articles: [
       {
-        date: "12 April 2024",
-        title: "Ada Pelangi di Balik Hujan",
-        image: "https://res.cloudinary.com/df1oh69xd/image/upload/v1754498784/lagu_misa_sheets/mtegc5d6yavs21j9qtqa.jpg",
-        summary: "Renungan tentang harapan ketika kehidupan tidak selalu berjalan sesuai rencana, namun tetap menyimpan warna kebaikan.",
+        date: "18 Mei 2026",
+        title: "Tetap Bersinar di Tengah Kesibukan",
+        image: "pray.jpg",
+        summary: "Kadang hidup terasa penuh tugas, tekanan, dan rasa lelah yang datang bertubi-tubi. Dalam kesibukan itu, kita sering lupa memberi waktu untuk diri sendiri dan Tuhan. Padahal, hati yang tenang lahir dari hubungan yang dekat dengan-Nya.Tuhan tidak meminta kita menjadi sempurna setiap saat, tetapi tetap setia berjalan dan tidak kehilangan harapan. Bahkan di hari yang berat sekalipun, selalu ada kesempatan untuk bertumbuh, belajar, dan menjadi lebih kuat.",
       },
       {
         date: "12 Maret 2024",
-        title: "Mari Berdoa dengan Kerendahan Hati",
-        image: "https://res.cloudinary.com/df1oh69xd/image/upload/v1754498481/lagu_misa_sheets/g9bsaqmvqs7qnymx0sre.jpg",
-        summary: "Ajakan untuk membangun kebiasaan doa yang sederhana, rendah hati, dan dekat dengan kehidupan sehari-hari.",
+        title: "Belajar Bersyukur dalam Hal Kecil",
+        image: "unsplash.jpg",
+        summary: "Sering kali kita menunggu hal besar untuk merasa bahagia, padahal Tuhan menghadirkan banyak berkat melalui hal-hal sederhana. Senyum dari seseorang, udara pagi yang sejuk, atau hari yang masih bisa dijalani adalah bentuk kasih Tuhan yang kadang terlewatkan. Hati yang bersyukur membuat hidup terasa lebih ringan. Saat kita belajar melihat kebaikan kecil setiap hari, kita akan sadar bahwa Tuhan tidak pernah meninggalkan kita, bahkan dalam masa sulit sekalipun.",
       },
       {
         date: "4 Februari 2024",
-        title: "Mengapa Tuhan Menciptakan Perbedaan?",
-        image: "https://res.cloudinary.com/df1oh69xd/image/upload/v1754497962/lagu_misa_sheets/er2sy15hf3ii67ureuyn.jpg",
-        summary: "Catatan iman tentang keberagaman, kepedulian, dan cara melihat sesama sebagai anugerah.",
+        title: "Jangan Takut Memulai Lagi",
+        image: "road.jpg",
+        summary: "Kegagalan bukan akhir dari perjalanan. Kadang Tuhan mengizinkan kita jatuh supaya kita belajar menjadi lebih kuat dan lebih bijaksana. Tidak apa-apa jika langkahmu sempat berhenti, yang penting adalah keberanian untuk bangkit kembali. Tuhan selalu membuka kesempatan baru bagi mereka yang mau mencoba lagi. Masa lalu tidak menentukan seluruh hidupmu. Setiap hari adalah kesempatan baru untuk memperbaiki diri dan berjalan lebih baik dari sebelumnya.",
       },
     ],
-
-    liturgy: {
-      date: "Sabtu, 23 Mei 2026",
-      color: "Putih",
-      celebration: "Hari Biasa Pekan V Paskah",
-      readings: ["Kis. 15:22-31", "Mzm. 57:8-9,10-12", "Yoh. 15:12-17"],
-    },
 
     testimonials: [
       {
