@@ -72,7 +72,7 @@ select {
 }
 
 .site-loader img {
-  width: 92px;
+  width: 200px;
   margin: 0 auto;
   filter: drop-shadow(0 10px 16px rgba(38, 26, 0, 0.2));
   animation: loaderPulse 1.4s ease-in-out infinite;
