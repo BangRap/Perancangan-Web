@@ -494,9 +494,9 @@ select {
 }
 
 .welcome-logo {
-  width: 150px;
-  height: 150px;
-  margin: -160px auto 28px;
+  width: 200px;
+  height: 200px;
+  margin: -180px auto 28px;
   object-fit: contain;
   position: relative;
   z-index: 4;
