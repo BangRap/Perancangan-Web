@@ -204,7 +204,7 @@ const SITE_DATA = {
     hero: {
       title: "Galeri Kegiatan",
       subtitle: "Dokumentasi Kegiatan FKMK Sekolah Vokasi IPB",
-      image: "https://www.kmkitera.com/comp-bg-event.webp",
+      image: "event.png",
     },
     items: [
       {
