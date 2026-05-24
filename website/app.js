@@ -94,10 +94,8 @@ function renderFooter() {
             <h4>Hubungi Kami</h4>
             <p><strong>Email</strong><br>${escapeHTML(brand.email)}</p>
             <div class="socials">
-              <a href="https://www.instagram.com/kmk_itera/" aria-label="Instagram"><img src="${escapeHTML(assets.instagram)}" alt="Instagram" /></a>
-              <a href="https://www.youtube.com/" aria-label="YouTube"><img src="${escapeHTML(assets.youtube)}" alt="YouTube" /></a>
-              <a href="https://open.spotify.com/" aria-label="Spotify"><img src="${escapeHTML(assets.spotify)}" alt="Spotify" /></a>
-              <a href="https://www.tiktok.com/" aria-label="TikTok"><img src="${escapeHTML(assets.tiktok)}" alt="TikTok" /></a>
+              <a href="https://www.instagram.com/fkmk_svipb/" aria-label="Instagram"><img src="${escapeHTML(assets.instagram)}" alt="Instagram" /></a>
+              <a href="https://www.tiktok.com/@fkmksvipb?_r=1&_t=ZS-96ceU6U4e3w" aria-label="TikTok"><img src="${escapeHTML(assets.tiktok)}" alt="TikTok" /></a>
             </div>
           </div>
         </div>
