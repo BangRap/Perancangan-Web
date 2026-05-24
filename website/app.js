@@ -95,7 +95,7 @@ function renderFooter() {
             <p><strong>Email</strong><br>${escapeHTML(brand.email)}</p>
             <div class="socials">
               <a href="https://www.instagram.com/fkmk_svipb/" aria-label="Instagram"><img src="${escapeHTML(assets.instagram)}" alt="Instagram" /></a>
-              <a href="https://www.tiktok.com/" aria-label="TikTok"><img src="${escapeHTML(assets.tiktok)}" alt="TikTok" /></a>
+              <a href="https://www.tiktok.com/@fkmksvipb?_r=1&_t=ZS-96ceU6U4e3w" aria-label="TikTok"><img src="${escapeHTML(assets.tiktok)}" alt="TikTok" /></a>
             </div>
           </div>
         </div>
