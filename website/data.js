@@ -115,46 +115,26 @@ const SITE_DATA = {
       {
         name: "Winky Apriyani",
         meta: "Sains Atmosfer dan Keplanetan / 2023",
-<<<<<<< HEAD
         image: "orang1.png",
-        text: "KMK membantu saya tetap bertumbuh dalam iman selama kuliah dan menjadi keluarga kedua yang saling mendukung.",
-=======
-        image: "https://www.kmkitera.com/bph20252026/WinkyApriyani.png",
         text: "FKMK menjadi tempat saya menemukan keluarga baru di perantauan. Di sini saya belajar bertumbuh dalam iman, pelayanan, dan persahabatan.",
->>>>>>> ad71fc82eb64a39f0bd291530984fd9a02aa7986
       },
       {
         name: "Pius Windu Abimanyu Wicaksono",
         meta: "Teknik Lingkungan / 2022",
-<<<<<<< HEAD
         image: "orang2.png",
-        text: "Bergabung dengan KMK mempertemukan saya dengan banyak teman dan pengalaman organisasi yang membentuk karakter.",
-=======
-        image: "https://www.kmkitera.com/bph20252026/PiusWinduAbimanyuWicaksono.png",
         text: "Bersama FKMK, saya tidak hanya berkembang secara rohani, tetapi juga belajar menjadi pribadi yang lebih peduli dan bertanggung jawab.",
->>>>>>> ad71fc82eb64a39f0bd291530984fd9a02aa7986
       },
       {
         name: "Michael Mathew",
         meta: "Teknik Informatika / 2023",
-<<<<<<< HEAD
         image: "orang3.png",
-        text: "Sebagai mahasiswa baru, KMK memberi ruang untuk merasa diterima dan bertumbuh dalam iman di lingkungan kampus.",
-=======
-        image: "https://www.kmkitera.com/bph20252026/MichaelMathew.png",
         text: "Sebagai mahasiswa baru, FKMK membantu saya beradaptasi dengan lingkungan kampus dan menemukan teman-teman yang saling mendukung.",
->>>>>>> ad71fc82eb64a39f0bd291530984fd9a02aa7986
       },
       {
         name: "Chandra Budi Wijaya",
         meta: "Teknik Informatika / 2022",
-<<<<<<< HEAD
         image: "orang4.png",
-        text: "KMK adalah komunitas yang peduli pada perkembangan iman, akademik, dan kehidupan anggota-anggotanya.",
-=======
-        image: "https://www.kmkitera.com/bph20252026/ChandraBudiWijaya.png",
         text: "FKMK bukan sekadar komunitas, tetapi tempat untuk bertumbuh, berbagi, dan saling menguatkan dalam perjalanan perkuliahan.",
->>>>>>> ad71fc82eb64a39f0bd291530984fd9a02aa7986
       },
     ],
 
