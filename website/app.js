@@ -167,7 +167,7 @@ function renderPageHero(hero, options = {}) {
 
 function renderHome() {
   const { assets, home } = SITE_DATA;
-  const { welcome, pillars, articles, liturgy, join, testimonials, gallery, faqs, heroSlides } = home;
+  const { welcome, pillars, articles, join, testimonials, gallery, faqs, heroSlides } = home;
   const eventPreview = SITE_DATA.events.items.slice(0, 3);
   return `
     ${renderHero(heroSlides)}
@@ -199,13 +199,7 @@ function renderHome() {
           </div>
           <div class="article-list">${articles.map(renderArticleCard).join("")}</div>
         </div>
-        <aside class="card liturgy-card reveal">
-          <small>Info Liturgi</small>
-          <h3>${escapeHTML(liturgy.date)}</h3>
-          <span class="color">${escapeHTML(liturgy.color)}</span>
-          <div class="celebration">${escapeHTML(liturgy.celebration)}</div>
-          <ul class="reading-list">${liturgy.readings.map((item) => `<li>${escapeHTML(item)}</li>`).join("")}</ul>
-        </aside>
+        
       </div>
     </section>
     <section class="section section-soft">

@@ -108,25 +108,25 @@ const SITE_DATA = {
     testimonials: [
       {
         name: "Nixon A.F Girsang",
-        meta: "Sains Atmosfer dan Keplanetan / 2023",
+        meta: "Teknik dan Manajem Lingkungan / 2024",
         image: "orang1.png",
         text: "FKMK menjadi tempat saya menemukan keluarga baru di perantauan. Di sini saya belajar bertumbuh dalam iman, pelayanan, dan persahabatan.",
       },
       {
         name: "Aileen Claire Lukito",
-        meta: "Teknik Lingkungan / 2022",
+        meta: "Manajemen Industri Jasa Makanan dan Gizi / 2025",
         image: "orang2.png",
         text: "Bersama FKMK, saya tidak hanya berkembang secara rohani, tetapi juga belajar menjadi pribadi yang lebih peduli dan bertanggung jawab.",
       },
       {
         name: "Kaludia Nugrahani P.W",
-        meta: "Teknik Informatika / 2023",
+        meta: "Komunikasi Digital dan Media / 2025",
         image: "orang3.png",
         text: "FKMK membantu saya beradaptasi dengan lingkungan kampus dan menemukan teman-teman yang saling mendukung.",
       },
       {
         name: "Destry Novena M.S",
-        meta: "Teknik Informatika / 2022",
+        meta: "Manajemen Agribisnis / 2025",
         image: "orang4.png",
         text: "FKMK bukan sekadar komunitas, tetapi tempat untuk bertumbuh, berbagi, dan saling menguatkan dalam perjalanan perkuliahan.",
       },
