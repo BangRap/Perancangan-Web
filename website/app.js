@@ -210,15 +210,6 @@ function renderHome() {
         </aside>
       </div>
     </section>
-    <section class="section section-red">
-      <div class="container join-content reveal">
-        <div>
-          <h2>${escapeHTML(join.title)}</h2>
-          <p>${escapeHTML(join.body)}</p>
-        </div>
-        <a class="btn btn-soft" href="${escapeHTML(join.href)}">${escapeHTML(join.button)}</a>
-      </div>
-    </section>
     <section class="section section-soft">
       <div class="container">
         <div class="section-title center reveal">
