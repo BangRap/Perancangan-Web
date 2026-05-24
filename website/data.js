@@ -172,7 +172,7 @@ const SITE_DATA = {
   profile: {
     hero: {
       title: "Profil FKMK SV IPB",
-      subtitle: "Unit Kegiatan Mahasiswa Katolik Institut Teknologi Sumatera",
+      subtitle: "Unit Kegiatan Mahasiswa Katolik Institut Pertanian Bogor",
       image: "https://www.kmkitera.com/comp-bg-profil.webp",
     },
     history: {
