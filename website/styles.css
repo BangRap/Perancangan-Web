@@ -489,7 +489,6 @@ select {
 
 .section-title p {
   max-width: 720px;
-  margin: 14px auto 0;
   color: var(--muted);
 }
 
