@@ -10,7 +10,7 @@ const SITE_DATA = {
 
   assets: {
     logo: "Logo FKMK.png",
-    logoLarge: "https://www.kmkitera.com/hd-logo-kmk-500.png",
+    logoLarge: "Logo FKMK.png",
     instagram: "https://www.kmkitera.com/instagram.png",
     youtube: "https://www.kmkitera.com/youtube.png",
     spotify: "https://www.kmkitera.com/spotify.png",
