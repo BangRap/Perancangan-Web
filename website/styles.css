@@ -78,10 +78,11 @@ select {
 .site-loader strong {
   font-family: var(--serif);
   font-size: 1.45rem;
+  color: white;
 }
 
 .site-loader span {
-  color: var(--muted);
+  color: white;
 }
 
 .site-loader.done {

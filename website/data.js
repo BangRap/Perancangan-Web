@@ -9,10 +9,10 @@ const SITE_DATA = {
   },
 
   assets: {
-    logo: "Logo FKMK.png",
-    logoLarge: "Logo FKMK.png",
-    instagram: "instagram.png",
-    tiktok: "tik-tok.png",
+    logo: "image/Logo FKMK.png",
+    logoLarge: "image/Logo FKMK.png",
+    instagram: "image/instagram.png",
+    tiktok: "image/tik-tok.png",
   },
 
   navigation: [
@@ -28,25 +28,25 @@ const SITE_DATA = {
         title: "Forum Keluarga Mahasiswa Katolik",
         kicker: "Unit Kegiatan Mahasiswa Katolik Sekolah Vokasi IPB",
         text: "Bersatu dalam iman, bertumbuh dalam pengetahuan, dan berbagi dalam pelayanan.",
-        image: "dokum2.png",
+        image: "image/dokum2.png",
       },
       {
         title: "Kegiatan Kami",
         kicker: "Mengembangkan Iman dan Persaudaraan",
         text: "Berbagai kegiatan rohani, sosial, dan pengembangan diri yang memperkuat iman dan persaudaraan antar sesama.",
-        image: "dokum1.png",
+        image: "image/dokum1.png",
       },
       {
         title: "Pelayanan Rohani",
         kicker: "Berbagi Kasih dan Kebaikan",
         text: "Menghidupkan nilai Katolik melalui pelayanan kepada sesama dan lingkungan kampus.",
-        image: "paskah.png",
+        image: "image/paskah.png",
       },
       {
         title: "Unit Kegiatan Mahasiswa",
         kicker: "Persaudaraan dalam Keberagaman",
         text: "Membangun relasi dan persahabatan yang menghormati perbedaan di lingkungan kampus.",
-        image: "studibanding.png",
+        image: "image/studibanding.png",
       },
     ],
 
@@ -81,19 +81,19 @@ const SITE_DATA = {
       {
         date: "18 Mei 2026",
         title: "Tetap Bersinar di Tengah Kesibukan",
-        image: "pray.jpg",
+        image: "image/pray.jpg",
         summary: "Kadang hidup terasa penuh tugas, tekanan, dan rasa lelah yang datang bertubi-tubi. Dalam kesibukan itu, kita sering lupa memberi waktu untuk diri sendiri dan Tuhan. Padahal, hati yang tenang lahir dari hubungan yang dekat dengan-Nya.Tuhan tidak meminta kita menjadi sempurna setiap saat, tetapi tetap setia berjalan dan tidak kehilangan harapan. Bahkan di hari yang berat sekalipun, selalu ada kesempatan untuk bertumbuh, belajar, dan menjadi lebih kuat.",
       },
       {
         date: "12 Maret 2024",
         title: "Belajar Bersyukur dalam Hal Kecil",
-        image: "unsplash.jpg",
+        image: "image/unsplash.jpg",
         summary: "Sering kali kita menunggu hal besar untuk merasa bahagia, padahal Tuhan menghadirkan banyak berkat melalui hal-hal sederhana. Senyum dari seseorang, udara pagi yang sejuk, atau hari yang masih bisa dijalani adalah bentuk kasih Tuhan yang kadang terlewatkan. Hati yang bersyukur membuat hidup terasa lebih ringan. Saat kita belajar melihat kebaikan kecil setiap hari, kita akan sadar bahwa Tuhan tidak pernah meninggalkan kita, bahkan dalam masa sulit sekalipun.",
       },
       {
         date: "4 Februari 2024",
         title: "Jangan Takut Memulai Lagi",
-        image: "road.jpg",
+        image: "image/road.jpg",
         summary: "Kegagalan bukan akhir dari perjalanan. Kadang Tuhan mengizinkan kita jatuh supaya kita belajar menjadi lebih kuat dan lebih bijaksana. Tidak apa-apa jika langkahmu sempat berhenti, yang penting adalah keberanian untuk bangkit kembali. Tuhan selalu membuka kesempatan baru bagi mereka yang mau mencoba lagi. Masa lalu tidak menentukan seluruh hidupmu. Setiap hari adalah kesempatan baru untuk memperbaiki diri dan berjalan lebih baik dari sebelumnya.",
       },
     ],
@@ -102,43 +102,30 @@ const SITE_DATA = {
       {
         name: "Nixon A.F Girsang",
         meta: "Teknik dan Manajem Lingkungan / 2024",
-        image: "orang1.png",
+        image: "image/orang1.png",
         text: "FKMK menjadi tempat saya menemukan keluarga baru di perantauan. Di sini saya belajar bertumbuh dalam iman, pelayanan, dan persahabatan.",
       },
       {
         name: "Aileen Claire Lukito",
         meta: "Manajemen Industri Jasa Makanan dan Gizi / 2025",
-        image: "orang2.png",
+        image: "image/orang2.png",
         text: "Bersama FKMK, saya tidak hanya berkembang secara rohani, tetapi juga belajar menjadi pribadi yang lebih peduli dan bertanggung jawab.",
       },
       {
         name: "Kaludia Nugrahani P.W",
         meta: "Komunikasi Digital dan Media / 2025",
-        image: "orang3.png",
+        image: "image/orang3.png",
         text: "FKMK membantu saya beradaptasi dengan lingkungan kampus dan menemukan teman-teman yang saling mendukung.",
       },
       {
         name: "Destry Novena M.S",
         meta: "Manajemen Agribisnis / 2025",
-        image: "orang4.png",
+        image: "image/orang4.png",
         text: "FKMK bukan sekadar komunitas, tetapi tempat untuk bertumbuh, berbagi, dan saling menguatkan dalam perjalanan perkuliahan.",
       },
     ],
 
-    gallery: [
-      {
-        title: "Doa Rosario",
-        image: "https://res.cloudinary.com/df1oh69xd/image/upload/v1756474572/lagu_misa_sheets/khlw4sjmrueulg8nacnb.jpg",
-      },
-      {
-        title: "Ibadah BKSN",
-        image: "https://res.cloudinary.com/df1oh69xd/image/upload/v1756474118/lagu_misa_sheets/emiu81ubbfqrz4sekyhg.jpg",
-      },
-      {
-        title: "First Gathering KMK 2025",
-        image: "https://res.cloudinary.com/df1oh69xd/image/upload/v1756472999/lagu_misa_sheets/wbivr9kou1qs4uklrqef.jpg",
-      },
-    ],
+    
 
     faqs: [
       {
@@ -160,12 +147,12 @@ const SITE_DATA = {
     hero: {
       title: "Profil FKMK SV IPB",
       subtitle: "Unit Kegiatan Mahasiswa Katolik Institut Teknologi Sumatera",
-      image: "dokum3.png",
+      image: "image/dokum3.png",
       subtitle: "Unit Kegiatan Mahasiswa Katolik Institut Pertanian Bogor",
     },
     history: {
       title: "Sejarah",
-      image: "fotobersama1.png",
+      image: "image/fotobersama1.png",
       paragraphs: [
         "FKMK adalah organisasi kemahasiswaan yang diperuntukkan bagi mahasiswa Sekolah Vokasi IPB yang beragama Katolik. Tujuannya untuk mempererat hubungan antar sesama Katolik, baik secara jasmani maupun rohani. FKMK didirikan pada tahun 2012 oleh angkatan 50, dengan tujuan memenuhi kebutuhan mahasiswa Katolik yang mencari tempat untuk berbagi, mengembangkan iman, dan membangun rasa kekeluargaan di antara sesama mahasiswa Katolik.",
       ],
@@ -197,7 +184,7 @@ const SITE_DATA = {
     hero: {
       title: "Galeri Kegiatan",
       subtitle: "Dokumentasi Kegiatan FKMK Sekolah Vokasi IPB",
-      image: "event.png",
+      image: "image/event.png",
     },
     items: [
       {
@@ -205,7 +192,7 @@ const SITE_DATA = {
         date: "15 Februari 2026",
         title: "Valentine FKMK 2026",
         location: "Sekolah Vokasi IPB",
-        image: "valentine.png",
+        image: "image/valentine.png",
         text: "Valentine FKMK 2026 merupakan kegiatan perayaan Hari Valentine sebagai ajang mempererat hubungan antaranggota",
       },
       {
@@ -213,7 +200,7 @@ const SITE_DATA = {
         date: "16 Mei 2026",
         title: "Studi Banding dengan KMK PNJ",
         location: "Sekolah Vokasi IPB",
-        image: "studibanding.png",
+        image: "image/studibanding.png",
         text: "Studi Banding bersama KMK PNJ merupakan kegiatan kunjungan dan diskusi antara FKMK dan KMK PNJ untuk berbagi pengalaman.",
       },
       {
@@ -221,7 +208,7 @@ const SITE_DATA = {
         date: "18 April 2026",
         title: "Paskah FKMK 2026",
         location: "Sekolah Vokasi IPB",
-        image: "paskah.png",
+        image: "image/paskah.png",
         text: "Latihan dasar kepemimpinan yang membekali anggota dengan nilai pelayanan, tanggung jawab, dan regenerasi organisasi.",
       },
     ],
@@ -232,7 +219,7 @@ const SITE_DATA = {
     hero: {
       title: "Doa Katolik",
       subtitle: "Temukan berbagai doa harian, devosi, dan doa-doa penting",
-      image: "gereja1.jpg",
+      image: "image/gereja1.jpg",
     },
     items: [
       {
