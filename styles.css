@@ -334,7 +334,7 @@ select {
 .hero h1 {
   max-width: 790px;
   margin: 0;
-  font-family: var(--serif);
+  font-family: sans-serif;
   font-size: 4.35rem;
   line-height: 1.02;
   text-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
